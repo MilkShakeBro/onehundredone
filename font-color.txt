@@ -1,0 +1,11 @@
+Primary: 
+
+- Normal #212121
+- Light  #484848
+- Dark   #000000
+
+Secondary:
+
+- Normal #bdbdbd
+- Light  #efefef
+- Dark   #8d8d8d

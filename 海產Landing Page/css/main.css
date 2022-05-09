@@ -1,37 +1,49 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
 html, body {
     height: 100%;
     width: 100%;
 }
 
 body {
-    font-family:
-    /* Safari for OS X and iOS */
-    -apple-system,
-    /* Chrome >= 56 for OS X , Windows, Linux and Android */
-    system-ui,
-    /* Chrome < 56 for OS X */
-    BlinkMacSystemFont,
-    /* Windows */
-    "Segoe UI",
-    /* Android */
-    "Roboto",
-    /* Basic web fallback */
-    "Helvetica Neue", Arial, sans-serif;
+    font-family: 'cwTeXKai', serif;
+    font-size: 1.2rem;
+}
+
+h1 {
+    color: #efefef;
 }
 
 p {
     font-size: 1.5rem;
+    color: #efefef;
 }
 
-#banner {
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-image: url("../images/b2c/seafood.png");
-    background-attachment: fixed;
+@media (min-width: 992px) {
+    #banner {
+        height: 100%;
+        text-align: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        background-color: #000000;
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 991px) {
+    #banner {
+        text-align: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        background-color: #000000;
+        background-attachment: fixed;
+    }
 }
 
 #banner-arrow {
@@ -40,7 +52,10 @@ p {
 
 .content {
     height: 100%;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
     background-color: rgba(235, 234, 234, 0.1)
 }
 
@@ -49,26 +64,8 @@ p {
     margin-right: auto;
 }
 
-.carousal-caption {
-    color:rgb(226, 226, 226);
-}
-
-.carousal-description {
-    color:rgb(221, 221, 221);
-}
-
-@media (min-width: 991px) {
-    .carousal-image {
-        height: 45% !important;
-        width: 45% !important;
-    }
-}
-
-@media (max-width: 990px) {
-    .carousal-image {
-        height: 60% !important;
-        width: 60% !important;
-    }
+.carousal-image {
+    overflow: hidden;
 }
 
 @media (min-width: 991px) {
@@ -155,7 +152,6 @@ p {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../images/b2c/seafood.png");
     background-attachment: fixed;
 }
 
@@ -166,7 +162,6 @@ p {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../images/b2c/seafood.png");
     background-attachment: fixed;
 }
 
@@ -177,7 +172,6 @@ p {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../images/b2c/seafood.png");
     background-attachment: fixed;
 }
 
@@ -188,7 +182,6 @@ p {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../images/b2c/seafood.png");
     background-attachment: fixed;
 }
 
@@ -199,46 +192,45 @@ p {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../images/b2c/seafood.png");
     background-attachment: fixed;
 }
 
 #section1-background-content {
     height: 100%;
     text-align: center;
-    background-color: rgba(235, 234, 234, 0.8)
+    background-color: #1b1b1b;
 }
 
 #section2-background-content {
     height: 100%;
     text-align: center;
-    background-color: rgba(235, 234, 234, 0.9)
+    background-color: #1b1b1b;
 }
 
 #section3-background-content {
     height: 100%;
     text-align: center;
-    background-color: rgba(235, 234, 234, 0.8)
+    background-color: #1b1b1b;
 }
 
 #section4-background-content {
     height: 100%;
     text-align: center;
-    background-color: rgba(235, 234, 234, 0.9)
+    background-color: #1b1b1b;
 }
 
 #section5-background-content {
     height: 100%;
     text-align: center;
-    background-color: rgba(235, 234, 234, 0.8)
+    background-color: #1b1b1b;
 }
 
 @media (min-width: 991px) {
     #footer {
         height: 33%;
-        background-color: rgba(149, 149, 149, 0.4)
+        color: #efefef;
+        background-color: #1b1b1b;
     }
-
     .icon {
         font-size: 2rem;
     }
@@ -247,8 +239,9 @@ p {
 @media (max-width: 990px) {
     #footer {
         font-size: 0.6rem;
+        color: #efefef;
         height: 25%;
-        background-color: rgba(149, 149, 149, 0.4)
+        background-color: #1b1b1b;
     }
 
     .icon {
