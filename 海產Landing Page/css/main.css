@@ -10,57 +10,31 @@ body {
     font-size: 1.2rem;
 }
 
-h1 {
-    color: #efefef;
-}
-
 p {
     font-size: 1.5rem;
-    color: #efefef;
 }
 
 #banner {
     height: 100%;
+    width: 100%;
     text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../images/bg.png");
+    background-image: url("../images/black-bg.png");
     background-attachment: fixed;
+    overflow: hidden;
 }
-/* 
-@media (max-width: 991px) {
-    #banner {
-        height: 100%;
-        text-align: center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        background-position: center;
-        background-color: #000000;
-        background-attachment: fixed;
-    }
-} */
 
 #banner-arrow {
     color: white;
 }
 
-.content {
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    background-color: rgba(235, 234, 234, 0.1)
-}
-
 .carousal-image {
-    height: 80%;
-    width: 80%;
+    height: 50%;
+    width: 53%;
 }
 
 @media (min-width: 991px) {
@@ -142,89 +116,69 @@ p {
 
 #section-1 {
     height: 100%;
+    text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-image: url("../images/white-bg.png");
 }
 
 #section-2 {
     height: 100%;
+    text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-image: url("../images/black-bg.png");
 }
 
 #section-3 {
     height: 100%;
+    text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-image: url("../images/white-bg.png");
 }
 
 #section-4 {
     height: 100%;
+    text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-image: url("../images/black-bg.png");
 }
 
 #section-5 {
     height: 100%;
+    text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
-
-#section1-background-content {
-    height: 100%;
-    text-align: center;
-    background-color: #1b1b1b;
-}
-
-#section2-background-content {
-    height: 100%;
-    text-align: center;
-    background-color: #1b1b1b;
-}
-
-#section3-background-content {
-    height: 100%;
-    text-align: center;
-    background-color: #1b1b1b;
-}
-
-#section4-background-content {
-    height: 100%;
-    text-align: center;
-    background-color: #1b1b1b;
-}
-
-#section5-background-content {
-    height: 100%;
-    text-align: center;
-    background-color: #1b1b1b;
+    background-image: url("../images/white-bg.png");
 }
 
 @media (min-width: 991px) {
     #footer {
         height: 33%;
         color: #efefef;
-        background-color: #1b1b1b;
+        background-image: url("../images/black-bg.png");
     }
     .icon {
         font-size: 2rem;
@@ -236,7 +190,7 @@ p {
         font-size: 0.6rem;
         color: #efefef;
         height: 25%;
-        background-color: #1b1b1b;
+        background-image: url("../images/black-bg.png");
     }
 
     .icon {

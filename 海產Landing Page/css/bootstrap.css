@@ -5984,6 +5984,7 @@ textarea.form-control-lg {
 }
 
 .carousel-item {
+  margin-top: 4rem;
   position: relative;
   display: none;
   float: left;
