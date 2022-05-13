@@ -34,11 +34,11 @@ p {
 
 .carousal-image {
     height: 50%;
-    width: 53%;
+    width: 60%;
     border-radius: 3rem;
 }
 
-@media (min-width: 991px) {
+@media (min-width: 769px) {
     .product-image {
         height: 75% !important;
         width: 45% !important;
@@ -50,7 +50,7 @@ p {
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 768px) {
     .product-image {
         height: 40% !important;
         width: 60% !important;
@@ -62,7 +62,7 @@ p {
     }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 769px) {
     .product-description {
         margin-left: auto;
         margin-right: auto;
@@ -71,7 +71,7 @@ p {
     }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 769px) {
     .product-description > .product-title, .product-title-white {
         margin-left: 3rem;
         margin-right: 3rem;
@@ -80,7 +80,7 @@ p {
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 768px) {
     .product-description > .product-title, .product-title-white {
         margin-left: 3rem;
         margin-right: 3rem;
@@ -94,7 +94,7 @@ p {
     color: white
 }
 
-@media (min-width: 991px) {
+@media (min-width: 769px) {
     .product-description > .product-text, .product-text-white {
         margin-left: 3rem;
         margin-right: 3rem;
@@ -103,7 +103,7 @@ p {
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 768px) {
     .product-description > .product-text, .product-text-white {
         margin-left: 3rem;
         margin-right: 3rem;
@@ -229,8 +229,8 @@ p {
 @media (min-width: 991px) {
     #footer {
         height: 33%;
-        color: black;
-        background-image: url("../images/white-bg.png");
+        color: white;
+        background-image: url("../images/black-bg.png");
     }
     .icon {
         font-size: 2rem;
@@ -240,9 +240,9 @@ p {
 @media (max-width: 990px) {
     #footer {
         font-size: 0.6rem;
-        color: black;
+        color: white;
         height: 25%;
-        background-image: url("../images/white-bg.png");
+        background-image: url("../images/black-bg.png");
     }
 
     .icon {
