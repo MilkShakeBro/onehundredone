@@ -209,7 +209,7 @@ p {
     -o-background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url("../images/yellow-bg.png");
+    background-image: url("../images/yellow-bg.jpeg");
 }
 
 .brand-story {
@@ -219,7 +219,7 @@ p {
     -o-background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url("../images/yellow-bg.png");
+    background-image: url("../images/yellow-bg.jpeg");
 }
 
 .brand-title {
