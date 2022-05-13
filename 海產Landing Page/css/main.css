@@ -35,16 +35,18 @@ p {
 .carousal-image {
     height: 50%;
     width: 53%;
+    border-radius: 3rem;
 }
 
 @media (min-width: 991px) {
     .section-image {
         height: 75% !important;
         width: 45% !important;
+        border-radius: 3rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        margin-right: 2rem;
-        margin-left: 2rem;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
     }
 }
 
@@ -52,6 +54,7 @@ p {
     .section-image {
         height: 40% !important;
         width: 60% !important;
+        border-radius: 3rem;
         margin-top: 5rem;
         margin-bottom: 0.5rem;
         margin-right: auto;
@@ -69,7 +72,7 @@ p {
 }
 
 @media (min-width: 991px) {
-    .section-description > .section-title {
+    .section-description > .section-title, .section-title-white {
         margin-left: 3rem;
         margin-right: 3rem;
         margin-bottom: 5rem;
@@ -78,7 +81,7 @@ p {
 }
 
 @media (max-width: 990px) {
-    .section-description > .section-title {
+    .section-description > .section-title, .section-title-white {
         margin-left: 3rem;
         margin-right: 3rem;
         margin-bottom: 1rem;
@@ -87,8 +90,12 @@ p {
     }
 }
 
+.section-title-white {
+    color: white
+}
+
 @media (min-width: 991px) {
-    .section-description > .section-text {
+    .section-description > .section-text, .section-text-white {
         margin-left: 3rem;
         margin-right: 3rem;
         margin-bottom: 3rem;
@@ -97,7 +104,7 @@ p {
 }
 
 @media (max-width: 990px) {
-    .section-description > .section-text {
+    .section-description > .section-text, .section-text-white {
         margin-left: 3rem;
         margin-right: 3rem;
         margin-bottom: 1rem;
@@ -106,8 +113,15 @@ p {
     }
 }
 
-.section-arrow {
+.section-text-white {
     color: white;
+}
+
+.section-arrow {
+    color: gray;
+    font-size: 1.5rem;
+    -webkit-filter: drop-shadow(3px 3px 0.5px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(3px 3px 0.5px rgba(0, 0, 0, 0.1))
 }
 
 #section {
