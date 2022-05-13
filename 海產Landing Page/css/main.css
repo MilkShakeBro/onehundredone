@@ -39,7 +39,7 @@ p {
 }
 
 @media (min-width: 991px) {
-    .section-image {
+    .product-image {
         height: 75% !important;
         width: 45% !important;
         border-radius: 3rem;
@@ -51,7 +51,7 @@ p {
 }
 
 @media (max-width: 990px) {
-    .section-image {
+    .product-image {
         height: 40% !important;
         width: 60% !important;
         border-radius: 3rem;
@@ -63,7 +63,7 @@ p {
 }
 
 @media (min-width: 991px) {
-    .section-description {
+    .product-description {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: auto;
@@ -72,7 +72,7 @@ p {
 }
 
 @media (min-width: 991px) {
-    .section-description > .section-title, .section-title-white {
+    .product-description > .product-title, .product-title-white {
         margin-left: 3rem;
         margin-right: 3rem;
         margin-bottom: 5rem;
@@ -81,7 +81,7 @@ p {
 }
 
 @media (max-width: 990px) {
-    .section-description > .section-title, .section-title-white {
+    .product-description > .product-title, .product-title-white {
         margin-left: 3rem;
         margin-right: 3rem;
         margin-bottom: 1rem;
@@ -90,12 +90,12 @@ p {
     }
 }
 
-.section-title-white {
+.product-title-white {
     color: white
 }
 
 @media (min-width: 991px) {
-    .section-description > .section-text, .section-text-white {
+    .product-description > .product-text, .product-text-white {
         margin-left: 3rem;
         margin-right: 3rem;
         margin-bottom: 3rem;
@@ -104,7 +104,7 @@ p {
 }
 
 @media (max-width: 990px) {
-    .section-description > .section-text, .section-text-white {
+    .product-description > .product-text, .product-text-white {
         margin-left: 3rem;
         margin-right: 3rem;
         margin-bottom: 1rem;
@@ -113,22 +113,18 @@ p {
     }
 }
 
-.section-text-white {
+.product-text-white {
     color: white;
 }
 
-.section-arrow {
+.product-arrow {
     color: gray;
     font-size: 1.5rem;
     -webkit-filter: drop-shadow(3px 3px 0.5px rgba(0, 0, 0, 0.1));
     filter: drop-shadow(3px 3px 0.5px rgba(0, 0, 0, 0.1))
 }
 
-#section {
-    height: 100%;
-}
-
-#section-1 {
+#product-1 {
     height: 100%;
     text-align: center;
     -webkit-background-size: cover;
@@ -140,7 +136,7 @@ p {
     background-image: url("../images/white-bg.png");
 }
 
-#section-2 {
+#product-2 {
     height: 100%;
     text-align: center;
     -webkit-background-size: cover;
@@ -152,7 +148,7 @@ p {
     background-image: url("../images/black-bg.png");
 }
 
-#section-3 {
+#product-3 {
     height: 100%;
     text-align: center;
     -webkit-background-size: cover;
@@ -164,7 +160,7 @@ p {
     background-image: url("../images/white-bg.png");
 }
 
-#section-4 {
+#product-4 {
     height: 100%;
     text-align: center;
     -webkit-background-size: cover;
@@ -176,7 +172,7 @@ p {
     background-image: url("../images/black-bg.png");
 }
 
-#section-5 {
+#product-5 {
     height: 100%;
     text-align: center;
     -webkit-background-size: cover;
@@ -186,13 +182,55 @@ p {
     background-position: center;
     background-attachment: fixed;
     background-image: url("../images/white-bg.png");
+}
+
+@media (min-width: 992px) {
+    .brand-image {
+        width: 100%;
+        border-radius: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .brand-image {
+        width: 100%;
+        border-radius: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.brand-images {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../images/yellow-bg.png");
+}
+
+.brand-story {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../images/yellow-bg.png");
+}
+
+.brand-title {
+    text-align: center;
 }
 
 @media (min-width: 991px) {
     #footer {
         height: 33%;
-        color: #efefef;
-        background-image: url("../images/black-bg.png");
+        color: black;
+        background-image: url("../images/white-bg.png");
     }
     .icon {
         font-size: 2rem;
@@ -202,9 +240,9 @@ p {
 @media (max-width: 990px) {
     #footer {
         font-size: 0.6rem;
-        color: #efefef;
+        color: black;
         height: 25%;
-        background-image: url("../images/black-bg.png");
+        background-image: url("../images/white-bg.png");
     }
 
     .icon {
