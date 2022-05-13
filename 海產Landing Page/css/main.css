@@ -19,7 +19,19 @@ p {
     color: #efefef;
 }
 
-@media (min-width: 992px) {
+#banner {
+    height: 100%;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url("../images/bg.png");
+    background-attachment: fixed;
+}
+/* 
+@media (max-width: 991px) {
     #banner {
         height: 100%;
         text-align: center;
@@ -31,20 +43,7 @@ p {
         background-color: #000000;
         background-attachment: fixed;
     }
-}
-
-@media (max-width: 991px) {
-    #banner {
-        text-align: center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        background-position: center;
-        background-color: #000000;
-        background-attachment: fixed;
-    }
-}
+} */
 
 #banner-arrow {
     color: white;
@@ -59,13 +58,9 @@ p {
     background-color: rgba(235, 234, 234, 0.1)
 }
 
-.carousal-content {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .carousal-image {
-    overflow: hidden;
+    height: 80%;
+    width: 80%;
 }
 
 @media (min-width: 991px) {
